@@ -100,8 +100,9 @@ img {
     justify-content: space-between;
     margin-bottom: 50px;
 }
-.article {
-    width: 74%;
+article {
+    width: 60%;
+    order: 2;
 }
 .post-info {
     position: relative;
@@ -143,8 +144,9 @@ article img {
 article p {
     margin-bottom: 1rem;
 }
-.aside {
+aside {
     width: 22%;
+    order: 3;
 }
 .sub-title {
     font-size: 1.375rem;
@@ -169,6 +171,9 @@ aside p {
 }
 .sub-menu a:hover {
     color: #0bd;
+}
+.ad {
+    order: 1;
 }
 
 /* FOOTER */
